@@ -1,7 +1,7 @@
 import streamlit as st
 import importlib
 
-st.set_page_config(page_title="FTI", layout="wide", initial_sidebar_state="expanded")
+st.set_page_config(page_title="FTI2026", layout="wide", initial_sidebar_state="expanded")
 
 region_modules = {
     "All Regions": "main_dashboard",
@@ -58,7 +58,7 @@ st.sidebar.markdown(
     }
     </style>
     <div class="last-updated">
-        Last updated on: 31-12-2025
+        Last updated on: 31-01-2026
     </div>
     """,
     unsafe_allow_html=True
@@ -67,6 +67,7 @@ st.sidebar.markdown(
 # -------------------- LOAD PAGE --------------------
 module = importlib.import_module(module_name)
 module.run()
+
 
 
 
