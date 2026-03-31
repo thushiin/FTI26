@@ -58,7 +58,7 @@ st.sidebar.markdown(
     }
     </style>
     <div class="last-updated">
-        Last updated on: 31-01-2026
+        Last updated on: 28-02-2026
     </div>
     """,
     unsafe_allow_html=True
