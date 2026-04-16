@@ -22,7 +22,7 @@ def run():
 
 
 
-    st.markdown("<h1 style='text-align: left; margin-left:150px;  font-size: 38px;'>FIELD TECHNICAL INVESTIGATION 2025</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: left; margin-left:150px;  font-size: 38px;'>FIELD TECHNICAL INVESTIGATION 2026</h1>", unsafe_allow_html=True)
     st.markdown("<hr style='border: 1px solid #ccc;'>", unsafe_allow_html=True)
     # Load Data
     df = load_combined_data()
