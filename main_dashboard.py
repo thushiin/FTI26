@@ -83,13 +83,13 @@ def run():
         st.rerun()
         
     # Month selector
-    months = ["All Months"] + [f"{month} 2025" for month in df["Month"].unique()]
+    months = ["All Months"] + [f"{month} 2026" for month in df["Month"].unique()]
     selected_month = col3.selectbox("📅", months, label_visibility="collapsed")
     
     # Adjust the filter to remove the year when applying the filter to the DataFrame
     if selected_month != "All Months":
-        # Remove the " 2025" suffix to match the original data
-        filtered_month = selected_month.replace(" 2025", "")
+        # Remove the " 2026" suffix to match the original data
+        filtered_month = selected_month.replace(" 2026", "")
         df = df[df["Month"] == filtered_month]
     
     # Filter regions
