@@ -29,11 +29,11 @@ def run():
     
     cluster_map = {
     "Cluster 1": ["MCT", "SHN", "SHS"],
-    "Cluster 2": ["BTN", "DHR", "MSD"],
-    "Cluster 3": ["DKL", "BTS", "WST","BRM"],
+    "Cluster 2": ["BTN", "DHR", "MSD", "BRM"],
+    "Cluster 3": ["DKL", "BTS", "WST"],
     "All Clusters": ["MCT", "SHN", "SHS",
-                         "BTN", "DHR", "MSD",
-                         "DKL", "BTS", "WST", "BRM"]
+                         "BTN", "DHR", "MSD","BRM",
+                         "DKL", "BTS", "WST"]
     }
     
     
